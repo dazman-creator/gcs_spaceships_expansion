@@ -2,6 +2,7 @@ import json
 import random
 import argparse
 import os
+import uuid
 
 def load_json(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -51,9 +52,11 @@ def main():
     parser = argparse.ArgumentParser(description="GCS Random Spaceship Generator")
     parser.add_argument("--sm", type=int, choices=range(5, 16), default=8, help="Size Modifier (5-15)")
     parser.add_argument("--shipclass", type=str, choices=["freighter", "warship", "explorer"], default="freighter", help="Ship Class")
+    parser.add_argument("--outdir", type=str, default="", help="Output directory for the generated .gcs file")
     args = parser.parse_args()
     
     base_dir = r"C:\Users\User\GCS\User Library\Spaceships"
+    out_dir = args.outdir if args.outdir else base_dir
     
     # 1. Load Boilerplate and DB
     template = load_json(os.path.join(base_dir, "Basic_Spaceship_Sheet.gcs"))
@@ -64,7 +67,7 @@ def main():
     # 2. Setup Base Info
     prefixes = ["USS", "VSS", "ISV", "HMS", "FSS"]
     names = ["Star-Skipper", "Leviathan", "Voyager", "Nomad", "Centurion", "Stardust", "Eclipse", "Horizon", "Pioneer", "Vanguard"]
-    ship_name = f"{random.choice(prefixes)} {random.choice(names)}"
+    ship_name = f"{random.choice(prefixes)} {random.choice(names)}-{random.randint(1000, 9999)}"
     
     template["profile"]["name"] = ship_name
     template["profile"]["player_name"] = "Random Generator"
@@ -146,8 +149,16 @@ def main():
             
         return ["Cargo Hold"]
 
+    def traverse_and_new_id(node):
+        if "id" in node:
+            node["id"] = str(uuid.uuid4())
+        if "children" in node:
+            for child in node["children"]:
+                traverse_and_new_id(child)
+
     for loc in locs:
         container = {
+            "id": str(uuid.uuid4()),
             "type": "equipment_container",
             "description": f"{loc} Hull Section",
             "children": []
@@ -161,7 +172,9 @@ def main():
                 mod = get_random_module(modules_db, args.sm, ["Cargo Hold"], loc)
             
             if mod:
-                container["children"].append(mod)
+                mod_copy = json.loads(json.dumps(mod))
+                traverse_and_new_id(mod_copy)
+                container["children"].append(mod_copy)
                 
         equipment.append(container)
         
@@ -169,7 +182,8 @@ def main():
     
     # 5. Output
     out_name = f"{ship_name.replace(' ', '_')}.gcs"
-    out_path = os.path.join(base_dir, out_name)
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, out_name)
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(template, f, indent=4)
         
