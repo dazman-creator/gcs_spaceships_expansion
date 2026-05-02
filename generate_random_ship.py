@@ -152,6 +152,9 @@ def main():
     def traverse_and_new_id(node):
         if "id" in node:
             node["id"] = str(uuid.uuid4())
+        if "weapons" in node:
+            for w in node["weapons"]:
+                w["id"] = str(uuid.uuid4())
         if "children" in node:
             for child in node["children"]:
                 traverse_and_new_id(child)
@@ -161,6 +164,7 @@ def main():
             "id": str(uuid.uuid4()),
             "type": "equipment_container",
             "description": f"{loc} Hull Section",
+            "equipped": True,
             "children": []
         }
         
