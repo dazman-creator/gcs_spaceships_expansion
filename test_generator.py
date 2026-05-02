@@ -65,7 +65,7 @@ def run_tests():
             # Test 2: Equipped flag
             unequipped = [eq for eq in equipments if not eq.get("equipped", False)]
             if unequipped:
-                errors.append(f"{filename}: Encontrou {len(unequipped)} equipamentos com 'equipped' ausente ou falso.")
+                errors.append(f"{filename}: Encontrou {len(unequipped)} equipamentos/containers com 'equipped' ausente ou falso.")
                 
             # Test 3: dr_bonus location
             valid_locs = ["front", "center", "rear", "core"]
@@ -80,6 +80,12 @@ def run_tests():
             ids = [eq.get("id") for eq in equipments if "id" in eq]
             if len(ids) != len(set(ids)):
                 errors.append(f"{filename}: Possui IDs duplicados nos equipamentos.")
+                
+            # Test 5: Weapon IDs
+            for eq in equipments:
+                for w in eq.get("weapons", []):
+                    if "id" not in w:
+                        errors.append(f"{filename}: Arma sem ID encontrada no equipamento: {eq.get('description')}")
                 
         except Exception as e:
             errors.append(f"{filename}: Erro ao processar - {str(e)}")
