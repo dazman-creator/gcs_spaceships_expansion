@@ -10470,7 +10470,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*5",
+                                "base": "2dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -10614,7 +10614,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*5",
+                                "base": "3dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -10650,7 +10650,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*5",
+                                "base": "2dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -10794,7 +10794,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*5",
+                                "base": "4dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -10830,7 +10830,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*5",
+                                "base": "3dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -10866,7 +10866,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*5",
+                                "base": "2dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -10974,7 +10974,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*5",
+                                "base": "6dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11010,7 +11010,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*5",
+                                "base": "4dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11046,7 +11046,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*5",
+                                "base": "3dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11082,7 +11082,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*5",
+                                "base": "2dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11154,7 +11154,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*10",
+                                "base": "4dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11190,7 +11190,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*5",
+                                "base": "6dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11226,7 +11226,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*5",
+                                "base": "4dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11262,7 +11262,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*5",
+                                "base": "3dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11298,7 +11298,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*5",
+                                "base": "2dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11334,7 +11334,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*10",
+                                "base": "6dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11370,7 +11370,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*10",
+                                "base": "4dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11406,7 +11406,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*5",
+                                "base": "6dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11442,7 +11442,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*5",
+                                "base": "4dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11478,7 +11478,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*5",
+                                "base": "3dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11514,7 +11514,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*50",
+                                "base": "2dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11550,7 +11550,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*10",
+                                "base": "6dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11586,7 +11586,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*10",
+                                "base": "4dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11622,7 +11622,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*5",
+                                "base": "6dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11658,7 +11658,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*5",
+                                "base": "4dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11694,7 +11694,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*50",
+                                "base": "3dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11730,7 +11730,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*50",
+                                "base": "2dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11766,7 +11766,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*10",
+                                "base": "6dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11802,7 +11802,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*10",
+                                "base": "4dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11838,7 +11838,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*5",
+                                "base": "6dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11874,7 +11874,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*50",
+                                "base": "4dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11910,7 +11910,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*50",
+                                "base": "3dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11946,7 +11946,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*50",
+                                "base": "2dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -11982,7 +11982,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*10",
+                                "base": "6dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -12018,7 +12018,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*10",
+                                "base": "4dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -12054,7 +12054,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*50",
+                                "base": "6dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -12090,7 +12090,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*50",
+                                "base": "4dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -12126,7 +12126,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*50",
+                                "base": "3dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -12162,7 +12162,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*50",
+                                "base": "2dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
@@ -12198,7 +12198,7 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*10",
+                                "base": "6dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
