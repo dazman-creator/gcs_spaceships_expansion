@@ -1,0 +1,2140 @@
+{
+    "type": "trait_list",
+    "version": 5,
+    "rows": [
+        {
+            "type": "trait_container",
+            "id": "sm_5",
+            "name": "Spaceship Chassi (SM+5)",
+            "reference": "SS9",
+            "tags": [
+                "Spaceship",
+                "Chassi"
+            ],
+            "modifiers": [],
+            "children": [
+                {
+                    "type": "trait",
+                    "name": "Base Stats & Ramming",
+                    "tags": [
+                        "Base"
+                    ],
+                    "base_points": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "st",
+                            "amount": 190
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "hp",
+                            "amount": 190
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "iq",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "will",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "per",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "sm",
+                            "amount": 5
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "type": "melee_weapon",
+                            "damage": {
+                                "type": "cr",
+                                "base": "HPxVelocity/100"
+                            },
+                            "usage": "Ramming (Collision)",
+                            "reach": "C",
+                            "parry": "No",
+                            "block": "No",
+                            "defaults": [
+                                {
+                                    "type": "dx"
+                                },
+                                {
+                                    "type": "skill",
+                                    "name": "Piloting"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "trait",
+                    "name": "Loaded Mass (30 tons)",
+                    "base_points": 0
+                },
+                {
+                    "type": "trait",
+                    "name": "Lifting ST",
+                    "reference": "B65,P58",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "modifiers": [
+                        {
+                            "id": "mMnp4uuhgolnkH4TO",
+                            "name": "No Fine Manipulators",
+                            "reference": "B15",
+                            "cost_adj": "-40%",
+                            "disabled": true
+                        },
+                        {
+                            "id": "mN_EpTSfIp2eUArrt",
+                            "name": "Size",
+                            "reference": "B15",
+                            "cost_adj": "-10%",
+                            "levels": 1,
+                            "disabled": true
+                        }
+                    ],
+                    "points_per_level": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "limitation": "lifting_only",
+                            "attribute": "st",
+                            "amount": 1,
+                            "per_level": true
+                        }
+                    ],
+                    "can_level": true,
+                    "levels": 471
+                },
+                {
+                    "type": "trait_container",
+                    "name": "Machine",
+                    "reference": "B263",
+                    "base_points": 25,
+                    "children": [
+                        {
+                            "type": "trait",
+                            "name": "Eight-hour energy reserve",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (No Blood)",
+                            "reference": "B161",
+                            "base_points": 5,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (Unliving)",
+                            "reference": "B161",
+                            "base_points": 20,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "No brain",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to Metabolic Hazards",
+                            "reference": "B81",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to all mind control",
+                            "reference": "B263",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Unhealing (Total)",
+                            "reference": "B160",
+                            "base_points": -30,
+                            "tags": [
+                                "Exotic",
+                                "Physical",
+                                "Disadvantage"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "trait_container",
+            "id": "sm_6",
+            "name": "Spaceship Chassi (SM+6)",
+            "reference": "SS9",
+            "tags": [
+                "Spaceship",
+                "Chassi"
+            ],
+            "modifiers": [],
+            "children": [
+                {
+                    "type": "trait",
+                    "name": "Base Stats & Ramming",
+                    "tags": [
+                        "Base"
+                    ],
+                    "base_points": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "st",
+                            "amount": 290
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "hp",
+                            "amount": 290
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "iq",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "will",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "per",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "sm",
+                            "amount": 6
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "type": "melee_weapon",
+                            "damage": {
+                                "type": "cr",
+                                "base": "HPxVelocity/100"
+                            },
+                            "usage": "Ramming (Collision)",
+                            "reach": "C",
+                            "parry": "No",
+                            "block": "No",
+                            "defaults": [
+                                {
+                                    "type": "dx"
+                                },
+                                {
+                                    "type": "skill",
+                                    "name": "Piloting"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "trait",
+                    "name": "Loaded Mass (100 tons)",
+                    "base_points": 0
+                },
+                {
+                    "type": "trait",
+                    "name": "Lifting ST",
+                    "reference": "B65,P58",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "modifiers": [
+                        {
+                            "id": "mMnp4uuhgolnkH4TO",
+                            "name": "No Fine Manipulators",
+                            "reference": "B15",
+                            "cost_adj": "-40%",
+                            "disabled": true
+                        },
+                        {
+                            "id": "mN_EpTSfIp2eUArrt",
+                            "name": "Size",
+                            "reference": "B15",
+                            "cost_adj": "-10%",
+                            "levels": 1,
+                            "disabled": true
+                        }
+                    ],
+                    "points_per_level": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "limitation": "lifting_only",
+                            "attribute": "st",
+                            "amount": 1,
+                            "per_level": true
+                        }
+                    ],
+                    "can_level": true,
+                    "levels": 925
+                },
+                {
+                    "type": "trait_container",
+                    "name": "Machine",
+                    "reference": "B263",
+                    "base_points": 25,
+                    "children": [
+                        {
+                            "type": "trait",
+                            "name": "Eight-hour energy reserve",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (No Blood)",
+                            "reference": "B161",
+                            "base_points": 5,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (Unliving)",
+                            "reference": "B161",
+                            "base_points": 20,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "No brain",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to Metabolic Hazards",
+                            "reference": "B81",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to all mind control",
+                            "reference": "B263",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Unhealing (Total)",
+                            "reference": "B160",
+                            "base_points": -30,
+                            "tags": [
+                                "Exotic",
+                                "Physical",
+                                "Disadvantage"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "trait_container",
+            "id": "sm_7",
+            "name": "Spaceship Chassi (SM+7)",
+            "reference": "SS9",
+            "tags": [
+                "Spaceship",
+                "Chassi"
+            ],
+            "modifiers": [],
+            "children": [
+                {
+                    "type": "trait",
+                    "name": "Base Stats & Ramming",
+                    "tags": [
+                        "Base"
+                    ],
+                    "base_points": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "st",
+                            "amount": 490
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "hp",
+                            "amount": 490
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "iq",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "will",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "per",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "sm",
+                            "amount": 7
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "type": "melee_weapon",
+                            "damage": {
+                                "type": "cr",
+                                "base": "HPxVelocity/100"
+                            },
+                            "usage": "Ramming (Collision)",
+                            "reach": "C",
+                            "parry": "No",
+                            "block": "No",
+                            "defaults": [
+                                {
+                                    "type": "dx"
+                                },
+                                {
+                                    "type": "skill",
+                                    "name": "Piloting"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "trait",
+                    "name": "Loaded Mass (300 tons)",
+                    "base_points": 0
+                },
+                {
+                    "type": "trait",
+                    "name": "Lifting ST",
+                    "reference": "B65,P58",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "modifiers": [
+                        {
+                            "id": "mMnp4uuhgolnkH4TO",
+                            "name": "No Fine Manipulators",
+                            "reference": "B15",
+                            "cost_adj": "-40%",
+                            "disabled": true
+                        },
+                        {
+                            "id": "mN_EpTSfIp2eUArrt",
+                            "name": "Size",
+                            "reference": "B15",
+                            "cost_adj": "-10%",
+                            "levels": 1,
+                            "disabled": true
+                        }
+                    ],
+                    "points_per_level": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "limitation": "lifting_only",
+                            "attribute": "st",
+                            "amount": 1,
+                            "per_level": true
+                        }
+                    ],
+                    "can_level": true,
+                    "levels": 1622
+                },
+                {
+                    "type": "trait_container",
+                    "name": "Machine",
+                    "reference": "B263",
+                    "base_points": 25,
+                    "children": [
+                        {
+                            "type": "trait",
+                            "name": "Eight-hour energy reserve",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (No Blood)",
+                            "reference": "B161",
+                            "base_points": 5,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (Unliving)",
+                            "reference": "B161",
+                            "base_points": 20,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "No brain",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to Metabolic Hazards",
+                            "reference": "B81",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to all mind control",
+                            "reference": "B263",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Unhealing (Total)",
+                            "reference": "B160",
+                            "base_points": -30,
+                            "tags": [
+                                "Exotic",
+                                "Physical",
+                                "Disadvantage"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "trait_container",
+            "id": "sm_8",
+            "name": "Spaceship Chassi (SM+8)",
+            "reference": "SS9",
+            "tags": [
+                "Spaceship",
+                "Chassi"
+            ],
+            "modifiers": [],
+            "children": [
+                {
+                    "type": "trait",
+                    "name": "Base Stats & Ramming",
+                    "tags": [
+                        "Base"
+                    ],
+                    "base_points": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "st",
+                            "amount": 690
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "hp",
+                            "amount": 690
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "iq",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "will",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "per",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "sm",
+                            "amount": 8
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "type": "melee_weapon",
+                            "damage": {
+                                "type": "cr",
+                                "base": "HPxVelocity/100"
+                            },
+                            "usage": "Ramming (Collision)",
+                            "reach": "C",
+                            "parry": "No",
+                            "block": "No",
+                            "defaults": [
+                                {
+                                    "type": "dx"
+                                },
+                                {
+                                    "type": "skill",
+                                    "name": "Piloting"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "trait",
+                    "name": "Loaded Mass (1,000 tons)",
+                    "base_points": 0
+                },
+                {
+                    "type": "trait",
+                    "name": "Lifting ST",
+                    "reference": "B65,P58",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "modifiers": [
+                        {
+                            "id": "mMnp4uuhgolnkH4TO",
+                            "name": "No Fine Manipulators",
+                            "reference": "B15",
+                            "cost_adj": "-40%",
+                            "disabled": true
+                        },
+                        {
+                            "id": "mN_EpTSfIp2eUArrt",
+                            "name": "Size",
+                            "reference": "B15",
+                            "cost_adj": "-10%",
+                            "levels": 1,
+                            "disabled": true
+                        }
+                    ],
+                    "points_per_level": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "limitation": "lifting_only",
+                            "attribute": "st",
+                            "amount": 1,
+                            "per_level": true
+                        }
+                    ],
+                    "can_level": true,
+                    "levels": 3173
+                },
+                {
+                    "type": "trait_container",
+                    "name": "Machine",
+                    "reference": "B263",
+                    "base_points": 25,
+                    "children": [
+                        {
+                            "type": "trait",
+                            "name": "Eight-hour energy reserve",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (No Blood)",
+                            "reference": "B161",
+                            "base_points": 5,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (Unliving)",
+                            "reference": "B161",
+                            "base_points": 20,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "No brain",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to Metabolic Hazards",
+                            "reference": "B81",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to all mind control",
+                            "reference": "B263",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Unhealing (Total)",
+                            "reference": "B160",
+                            "base_points": -30,
+                            "tags": [
+                                "Exotic",
+                                "Physical",
+                                "Disadvantage"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "trait_container",
+            "id": "sm_9",
+            "name": "Spaceship Chassi (SM+9)",
+            "reference": "SS9",
+            "tags": [
+                "Spaceship",
+                "Chassi"
+            ],
+            "modifiers": [],
+            "children": [
+                {
+                    "type": "trait",
+                    "name": "Base Stats & Ramming",
+                    "tags": [
+                        "Base"
+                    ],
+                    "base_points": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "st",
+                            "amount": 990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "hp",
+                            "amount": 990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "iq",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "will",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "per",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "sm",
+                            "amount": 9
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "type": "melee_weapon",
+                            "damage": {
+                                "type": "cr",
+                                "base": "HPxVelocity/100"
+                            },
+                            "usage": "Ramming (Collision)",
+                            "reach": "C",
+                            "parry": "No",
+                            "block": "No",
+                            "defaults": [
+                                {
+                                    "type": "dx"
+                                },
+                                {
+                                    "type": "skill",
+                                    "name": "Piloting"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "trait",
+                    "name": "Loaded Mass (3,000 tons)",
+                    "base_points": 0
+                },
+                {
+                    "type": "trait",
+                    "name": "Lifting ST",
+                    "reference": "B65,P58",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "modifiers": [
+                        {
+                            "id": "mMnp4uuhgolnkH4TO",
+                            "name": "No Fine Manipulators",
+                            "reference": "B15",
+                            "cost_adj": "-40%",
+                            "disabled": true
+                        },
+                        {
+                            "id": "mN_EpTSfIp2eUArrt",
+                            "name": "Size",
+                            "reference": "B15",
+                            "cost_adj": "-10%",
+                            "levels": 1,
+                            "disabled": true
+                        }
+                    ],
+                    "points_per_level": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "limitation": "lifting_only",
+                            "attribute": "st",
+                            "amount": 1,
+                            "per_level": true
+                        }
+                    ],
+                    "can_level": true,
+                    "levels": 5709
+                },
+                {
+                    "type": "trait_container",
+                    "name": "Machine",
+                    "reference": "B263",
+                    "base_points": 25,
+                    "children": [
+                        {
+                            "type": "trait",
+                            "name": "Eight-hour energy reserve",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (No Blood)",
+                            "reference": "B161",
+                            "base_points": 5,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (Unliving)",
+                            "reference": "B161",
+                            "base_points": 20,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "No brain",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to Metabolic Hazards",
+                            "reference": "B81",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to all mind control",
+                            "reference": "B263",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Unhealing (Total)",
+                            "reference": "B160",
+                            "base_points": -30,
+                            "tags": [
+                                "Exotic",
+                                "Physical",
+                                "Disadvantage"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "trait_container",
+            "id": "sm_10",
+            "name": "Spaceship Chassi (SM+10)",
+            "reference": "SS9",
+            "tags": [
+                "Spaceship",
+                "Chassi"
+            ],
+            "modifiers": [],
+            "children": [
+                {
+                    "type": "trait",
+                    "name": "Base Stats & Ramming",
+                    "tags": [
+                        "Base"
+                    ],
+                    "base_points": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "st",
+                            "amount": 1490
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "hp",
+                            "amount": 1490
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "iq",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "will",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "per",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "sm",
+                            "amount": 10
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "type": "melee_weapon",
+                            "damage": {
+                                "type": "cr",
+                                "base": "HPxVelocity/100"
+                            },
+                            "usage": "Ramming (Collision)",
+                            "reach": "C",
+                            "parry": "No",
+                            "block": "No",
+                            "defaults": [
+                                {
+                                    "type": "dx"
+                                },
+                                {
+                                    "type": "skill",
+                                    "name": "Piloting"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "trait",
+                    "name": "Loaded Mass (10,000 tons)",
+                    "base_points": 0
+                },
+                {
+                    "type": "trait",
+                    "name": "Lifting ST",
+                    "reference": "B65,P58",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "modifiers": [
+                        {
+                            "id": "mMnp4uuhgolnkH4TO",
+                            "name": "No Fine Manipulators",
+                            "reference": "B15",
+                            "cost_adj": "-40%",
+                            "disabled": true
+                        },
+                        {
+                            "id": "mN_EpTSfIp2eUArrt",
+                            "name": "Size",
+                            "reference": "B15",
+                            "cost_adj": "-10%",
+                            "levels": 1,
+                            "disabled": true
+                        }
+                    ],
+                    "points_per_level": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "limitation": "lifting_only",
+                            "attribute": "st",
+                            "amount": 1,
+                            "per_level": true
+                        }
+                    ],
+                    "can_level": true,
+                    "levels": 10748
+                },
+                {
+                    "type": "trait_container",
+                    "name": "Machine",
+                    "reference": "B263",
+                    "base_points": 25,
+                    "children": [
+                        {
+                            "type": "trait",
+                            "name": "Eight-hour energy reserve",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (No Blood)",
+                            "reference": "B161",
+                            "base_points": 5,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (Unliving)",
+                            "reference": "B161",
+                            "base_points": 20,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "No brain",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to Metabolic Hazards",
+                            "reference": "B81",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to all mind control",
+                            "reference": "B263",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Unhealing (Total)",
+                            "reference": "B160",
+                            "base_points": -30,
+                            "tags": [
+                                "Exotic",
+                                "Physical",
+                                "Disadvantage"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "trait_container",
+            "id": "sm_11",
+            "name": "Spaceship Chassi (SM+11)",
+            "reference": "SS9",
+            "tags": [
+                "Spaceship",
+                "Chassi"
+            ],
+            "modifiers": [],
+            "children": [
+                {
+                    "type": "trait",
+                    "name": "Base Stats & Ramming",
+                    "tags": [
+                        "Base"
+                    ],
+                    "base_points": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "st",
+                            "amount": 1990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "hp",
+                            "amount": 1990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "iq",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "will",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "per",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "sm",
+                            "amount": 11
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "type": "melee_weapon",
+                            "damage": {
+                                "type": "cr",
+                                "base": "HPxVelocity/100"
+                            },
+                            "usage": "Ramming (Collision)",
+                            "reach": "C",
+                            "parry": "No",
+                            "block": "No",
+                            "defaults": [
+                                {
+                                    "type": "dx"
+                                },
+                                {
+                                    "type": "skill",
+                                    "name": "Piloting"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "trait",
+                    "name": "Loaded Mass (30,000 tons)",
+                    "base_points": 0
+                },
+                {
+                    "type": "trait",
+                    "name": "Lifting ST",
+                    "reference": "B65,P58",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "modifiers": [
+                        {
+                            "id": "mMnp4uuhgolnkH4TO",
+                            "name": "No Fine Manipulators",
+                            "reference": "B15",
+                            "cost_adj": "-40%",
+                            "disabled": true
+                        },
+                        {
+                            "id": "mN_EpTSfIp2eUArrt",
+                            "name": "Size",
+                            "reference": "B15",
+                            "cost_adj": "-10%",
+                            "levels": 1,
+                            "disabled": true
+                        }
+                    ],
+                    "points_per_level": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "limitation": "lifting_only",
+                            "attribute": "st",
+                            "amount": 1,
+                            "per_level": true
+                        }
+                    ],
+                    "can_level": true,
+                    "levels": 19214
+                },
+                {
+                    "type": "trait_container",
+                    "name": "Machine",
+                    "reference": "B263",
+                    "base_points": 25,
+                    "children": [
+                        {
+                            "type": "trait",
+                            "name": "Eight-hour energy reserve",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (No Blood)",
+                            "reference": "B161",
+                            "base_points": 5,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (Unliving)",
+                            "reference": "B161",
+                            "base_points": 20,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "No brain",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to Metabolic Hazards",
+                            "reference": "B81",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to all mind control",
+                            "reference": "B263",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Unhealing (Total)",
+                            "reference": "B160",
+                            "base_points": -30,
+                            "tags": [
+                                "Exotic",
+                                "Physical",
+                                "Disadvantage"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "trait_container",
+            "id": "sm_12",
+            "name": "Spaceship Chassi (SM+12)",
+            "reference": "SS9",
+            "tags": [
+                "Spaceship",
+                "Chassi"
+            ],
+            "modifiers": [],
+            "children": [
+                {
+                    "type": "trait",
+                    "name": "Base Stats & Ramming",
+                    "tags": [
+                        "Base"
+                    ],
+                    "base_points": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "st",
+                            "amount": 2990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "hp",
+                            "amount": 2990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "iq",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "will",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "per",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "sm",
+                            "amount": 12
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "type": "melee_weapon",
+                            "damage": {
+                                "type": "cr",
+                                "base": "HPxVelocity/100"
+                            },
+                            "usage": "Ramming (Collision)",
+                            "reach": "C",
+                            "parry": "No",
+                            "block": "No",
+                            "defaults": [
+                                {
+                                    "type": "dx"
+                                },
+                                {
+                                    "type": "skill",
+                                    "name": "Piloting"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "trait",
+                    "name": "Loaded Mass (100,000 tons)",
+                    "base_points": 0
+                },
+                {
+                    "type": "trait",
+                    "name": "Lifting ST",
+                    "reference": "B65,P58",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "modifiers": [
+                        {
+                            "id": "mMnp4uuhgolnkH4TO",
+                            "name": "No Fine Manipulators",
+                            "reference": "B15",
+                            "cost_adj": "-40%",
+                            "disabled": true
+                        },
+                        {
+                            "id": "mN_EpTSfIp2eUArrt",
+                            "name": "Size",
+                            "reference": "B15",
+                            "cost_adj": "-10%",
+                            "levels": 1,
+                            "disabled": true
+                        }
+                    ],
+                    "points_per_level": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "limitation": "lifting_only",
+                            "attribute": "st",
+                            "amount": 1,
+                            "per_level": true
+                        }
+                    ],
+                    "can_level": true,
+                    "levels": 35730
+                },
+                {
+                    "type": "trait_container",
+                    "name": "Machine",
+                    "reference": "B263",
+                    "base_points": 25,
+                    "children": [
+                        {
+                            "type": "trait",
+                            "name": "Eight-hour energy reserve",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (No Blood)",
+                            "reference": "B161",
+                            "base_points": 5,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (Unliving)",
+                            "reference": "B161",
+                            "base_points": 20,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "No brain",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to Metabolic Hazards",
+                            "reference": "B81",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to all mind control",
+                            "reference": "B263",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Unhealing (Total)",
+                            "reference": "B160",
+                            "base_points": -30,
+                            "tags": [
+                                "Exotic",
+                                "Physical",
+                                "Disadvantage"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "trait_container",
+            "id": "sm_13",
+            "name": "Spaceship Chassi (SM+13)",
+            "reference": "SS9",
+            "tags": [
+                "Spaceship",
+                "Chassi"
+            ],
+            "modifiers": [],
+            "children": [
+                {
+                    "type": "trait",
+                    "name": "Base Stats & Ramming",
+                    "tags": [
+                        "Base"
+                    ],
+                    "base_points": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "st",
+                            "amount": 4990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "hp",
+                            "amount": 4990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "iq",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "will",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "per",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "sm",
+                            "amount": 13
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "type": "melee_weapon",
+                            "damage": {
+                                "type": "cr",
+                                "base": "HPxVelocity/100"
+                            },
+                            "usage": "Ramming (Collision)",
+                            "reach": "C",
+                            "parry": "No",
+                            "block": "No",
+                            "defaults": [
+                                {
+                                    "type": "dx"
+                                },
+                                {
+                                    "type": "skill",
+                                    "name": "Piloting"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "trait",
+                    "name": "Loaded Mass (300,000 tons)",
+                    "base_points": 0
+                },
+                {
+                    "type": "trait",
+                    "name": "Lifting ST",
+                    "reference": "B65,P58",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "modifiers": [
+                        {
+                            "id": "mMnp4uuhgolnkH4TO",
+                            "name": "No Fine Manipulators",
+                            "reference": "B15",
+                            "cost_adj": "-40%",
+                            "disabled": true
+                        },
+                        {
+                            "id": "mN_EpTSfIp2eUArrt",
+                            "name": "Size",
+                            "reference": "B15",
+                            "cost_adj": "-10%",
+                            "levels": 1,
+                            "disabled": true
+                        }
+                    ],
+                    "points_per_level": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "limitation": "lifting_only",
+                            "attribute": "st",
+                            "amount": 1,
+                            "per_level": true
+                        }
+                    ],
+                    "can_level": true,
+                    "levels": 62083
+                },
+                {
+                    "type": "trait_container",
+                    "name": "Machine",
+                    "reference": "B263",
+                    "base_points": 25,
+                    "children": [
+                        {
+                            "type": "trait",
+                            "name": "Eight-hour energy reserve",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (No Blood)",
+                            "reference": "B161",
+                            "base_points": 5,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (Unliving)",
+                            "reference": "B161",
+                            "base_points": 20,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "No brain",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to Metabolic Hazards",
+                            "reference": "B81",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to all mind control",
+                            "reference": "B263",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Unhealing (Total)",
+                            "reference": "B160",
+                            "base_points": -30,
+                            "tags": [
+                                "Exotic",
+                                "Physical",
+                                "Disadvantage"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "trait_container",
+            "id": "sm_14",
+            "name": "Spaceship Chassi (SM+14)",
+            "reference": "SS9",
+            "tags": [
+                "Spaceship",
+                "Chassi"
+            ],
+            "modifiers": [],
+            "children": [
+                {
+                    "type": "trait",
+                    "name": "Base Stats & Ramming",
+                    "tags": [
+                        "Base"
+                    ],
+                    "base_points": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "st",
+                            "amount": 6990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "hp",
+                            "amount": 6990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "iq",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "will",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "per",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "sm",
+                            "amount": 14
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "type": "melee_weapon",
+                            "damage": {
+                                "type": "cr",
+                                "base": "HPxVelocity/100"
+                            },
+                            "usage": "Ramming (Collision)",
+                            "reach": "C",
+                            "parry": "No",
+                            "block": "No",
+                            "defaults": [
+                                {
+                                    "type": "dx"
+                                },
+                                {
+                                    "type": "skill",
+                                    "name": "Piloting"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "trait",
+                    "name": "Loaded Mass (1,000,000 tons)",
+                    "base_points": 0
+                },
+                {
+                    "type": "trait",
+                    "name": "Lifting ST",
+                    "reference": "B65,P58",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "modifiers": [
+                        {
+                            "id": "mMnp4uuhgolnkH4TO",
+                            "name": "No Fine Manipulators",
+                            "reference": "B15",
+                            "cost_adj": "-40%",
+                            "disabled": true
+                        },
+                        {
+                            "id": "mN_EpTSfIp2eUArrt",
+                            "name": "Size",
+                            "reference": "B15",
+                            "cost_adj": "-10%",
+                            "levels": 1,
+                            "disabled": true
+                        }
+                    ],
+                    "points_per_level": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "limitation": "lifting_only",
+                            "attribute": "st",
+                            "amount": 1,
+                            "per_level": true
+                        }
+                    ],
+                    "can_level": true,
+                    "levels": 115475
+                },
+                {
+                    "type": "trait_container",
+                    "name": "Machine",
+                    "reference": "B263",
+                    "base_points": 25,
+                    "children": [
+                        {
+                            "type": "trait",
+                            "name": "Eight-hour energy reserve",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (No Blood)",
+                            "reference": "B161",
+                            "base_points": 5,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (Unliving)",
+                            "reference": "B161",
+                            "base_points": 20,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "No brain",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to Metabolic Hazards",
+                            "reference": "B81",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to all mind control",
+                            "reference": "B263",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Unhealing (Total)",
+                            "reference": "B160",
+                            "base_points": -30,
+                            "tags": [
+                                "Exotic",
+                                "Physical",
+                                "Disadvantage"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "trait_container",
+            "id": "sm_15",
+            "name": "Spaceship Chassi (SM+15)",
+            "reference": "SS9",
+            "tags": [
+                "Spaceship",
+                "Chassi"
+            ],
+            "modifiers": [],
+            "children": [
+                {
+                    "type": "trait",
+                    "name": "Base Stats & Ramming",
+                    "tags": [
+                        "Base"
+                    ],
+                    "base_points": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "st",
+                            "amount": 9990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "hp",
+                            "amount": 9990
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "iq",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "will",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "per",
+                            "amount": -10
+                        },
+                        {
+                            "type": "attribute_bonus",
+                            "attribute": "sm",
+                            "amount": 15
+                        }
+                    ],
+                    "weapons": [
+                        {
+                            "type": "melee_weapon",
+                            "damage": {
+                                "type": "cr",
+                                "base": "HPxVelocity/100"
+                            },
+                            "usage": "Ramming (Collision)",
+                            "reach": "C",
+                            "parry": "No",
+                            "block": "No",
+                            "defaults": [
+                                {
+                                    "type": "dx"
+                                },
+                                {
+                                    "type": "skill",
+                                    "name": "Piloting"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "trait",
+                    "name": "Loaded Mass (3,000,000 tons)",
+                    "base_points": 0
+                },
+                {
+                    "type": "trait",
+                    "name": "Lifting ST",
+                    "reference": "B65,P58",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "modifiers": [
+                        {
+                            "id": "mMnp4uuhgolnkH4TO",
+                            "name": "No Fine Manipulators",
+                            "reference": "B15",
+                            "cost_adj": "-40%",
+                            "disabled": true
+                        },
+                        {
+                            "id": "mN_EpTSfIp2eUArrt",
+                            "name": "Size",
+                            "reference": "B15",
+                            "cost_adj": "-10%",
+                            "levels": 1,
+                            "disabled": true
+                        }
+                    ],
+                    "points_per_level": 0,
+                    "features": [
+                        {
+                            "type": "attribute_bonus",
+                            "limitation": "lifting_only",
+                            "attribute": "st",
+                            "amount": 1,
+                            "per_level": true
+                        }
+                    ],
+                    "can_level": true,
+                    "levels": 202133
+                },
+                {
+                    "type": "trait_container",
+                    "name": "Machine",
+                    "reference": "B263",
+                    "base_points": 25,
+                    "children": [
+                        {
+                            "type": "trait",
+                            "name": "Eight-hour energy reserve",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (No Blood)",
+                            "reference": "B161",
+                            "base_points": 5,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Injury Tolerance (Unliving)",
+                            "reference": "B161",
+                            "base_points": 20,
+                            "tags": [
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "No brain",
+                            "reference": "B263",
+                            "base_points": 0,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to Metabolic Hazards",
+                            "reference": "B81",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Immunity to all mind control",
+                            "reference": "B263",
+                            "base_points": 30,
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        {
+                            "type": "trait",
+                            "name": "Unhealing (Total)",
+                            "reference": "B160",
+                            "base_points": -30,
+                            "tags": [
+                                "Exotic",
+                                "Physical",
+                                "Disadvantage"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

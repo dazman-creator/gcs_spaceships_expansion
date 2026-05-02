@@ -1,0 +1,251 @@
+{
+	"type": "eqp_modifier_list",
+	"version": 5,
+	"rows": [
+		{
+			"type": "eqp_modifier_container",
+			"name": "Design Features (Gerais da Nave)",
+			"children": [
+				{
+					"type": "eqp_modifier",
+					"id": "artificial_gravity",
+					"name": "Artificial Gravity / Gravitic Compensators",
+					"reference": "SS29",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "Cost varies by SM ($30K to $3B). 0 to 3G or negates 99.5% acceleration.",
+					"tags": ["Design Feature", "Gravity"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "spin_gravity",
+					"name": "Spin Gravity",
+					"reference": "SS29",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "-2 Handling while spinning. Cost varies by SM.",
+					"tags": ["Design Feature", "Gravity"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "emergency_ejection",
+					"name": "Emergency Ejection",
+					"reference": "SS29",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "+500000",
+					"notes": "For SM+5 to SM+8 Control Rooms not in Core.",
+					"tags": ["Design Feature", "Escape"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "stealth_hull",
+					"name": "Stealth Hull",
+					"reference": "SS30",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "-(TL-6) x 2 to detect. Cost varies by SM ($250K to $500M).",
+					"tags": ["Design Feature", "Stealth"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "dynamic_chameleon",
+					"name": "Dynamic Chameleon",
+					"reference": "SS30",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "-4 to detect with vision. Cost varies by SM ($180K to $350M).",
+					"tags": ["Design Feature", "Stealth"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "winged_hull",
+					"name": "Winged",
+					"reference": "SS30",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "For streamlined SM+5 to SM+12. Cost varies by SM.",
+					"tags": ["Design Feature", "Atmosphere"]
+				}
+			]
+		},
+		{
+			"type": "eqp_modifier_container",
+			"name": "Armor Modifiers",
+			"children": [
+				{
+					"type": "eqp_modifier",
+					"id": "hardened_armor",
+					"name": "Hardened",
+					"reference": "SS29",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "+1 CF",
+					"tags": ["Armor", "Defense"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "indestructible_armor",
+					"name": "Indestructible Armor",
+					"reference": "SS30",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "+9 CF",
+					"notes": "Infinite dDR vs attacks that do not ignore armor.",
+					"tags": ["Armor", "Defense", "Cosmic"]
+				}
+			]
+		},
+		{
+			"type": "eqp_modifier_container",
+			"name": "Force Screen Modifiers",
+			"children": [
+				{
+					"type": "eqp_modifier",
+					"id": "hardened_screen",
+					"name": "Hardened",
+					"reference": "SS14",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "+0.5 CF",
+					"tags": ["Force Screen", "Defense"]
+				}
+			]
+		},
+		{
+			"type": "eqp_modifier_container",
+			"name": "Engine Modifiers",
+			"children": [
+				{
+					"type": "eqp_modifier",
+					"id": "ram_rocket",
+					"name": "Ram-Rocket",
+					"reference": "SS30",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "+4 CF",
+					"notes": "Air-breathing mode for thermal/plasma rockets.",
+					"tags": ["Propulsion"]
+				}
+			]
+		},
+		{
+			"type": "eqp_modifier_container",
+			"name": "Weapon Modifiers",
+			"children": [
+				{
+					"type": "eqp_modifier",
+					"id": "improved_weapon",
+					"name": "Improved (+1 TL)",
+					"reference": "SS28",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "Double Rate of Fire. Higher TL cost.",
+					"tags": ["Weapon"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "rapid_fire",
+					"name": "Rapid Fire",
+					"reference": "SS29",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "Half Caliber, 5x Shots, Higher RoF, 10% Output.",
+					"tags": ["Weapon"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "very_rapid_fire",
+					"name": "Very Rapid Fire (VRF)",
+					"reference": "SS29",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "1/4 Caliber, 20x Shots, 1% Output.",
+					"tags": ["Weapon"]
+				}
+			]
+		},
+		{
+			"type": "eqp_modifier_container",
+			"name": "System Automation & Crew",
+			"children": [
+				{
+					"type": "eqp_modifier",
+					"id": "total_automation",
+					"name": "Total Automation",
+					"reference": "SS29",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "+$5M por Workspace requerido. Elimina técnicos.",
+					"tags": ["Automation", "Crew"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "high_automation",
+					"name": "High Automation (SM+12+)",
+					"reference": "SS29",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "+$1M por Workspace requerido. Reduz técnicos a 1/10.",
+					"tags": ["Automation", "Crew"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "req_workspace",
+					"name": "Workspace Required",
+					"reference": "SS9",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "Exige 1 Technician para operar.",
+					"tags": ["Crew"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "req_control_station",
+					"name": "Control Station Required",
+					"reference": "SS9",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "Exige 1 Tripulante de Ponte.",
+					"tags": ["Crew"]
+				}
+			]
+		},
+		{
+			"type": "eqp_modifier_container",
+			"name": "System Resources",
+			"children": [
+				{
+					"type": "eqp_modifier",
+					"id": "high_energy",
+					"name": "High-Energy System",
+					"reference": "SS9",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "Risco de superaquecimento se danificado.",
+					"tags": ["Power"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "cosmic_power",
+					"name": "Cosmic Power (Superscience)",
+					"reference": "SS31",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "Armas causam dano 10x maior. Reatores produzem energia cósmica.",
+					"tags": ["Power", "Cosmic"]
+				},
+				{
+					"type": "eqp_modifier",
+					"id": "provides_food",
+					"name": "Provides Food & Air",
+					"reference": "SS",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"notes": "Produz alimento e recicla ar localmente.",
+					"tags": ["Habitat", "Life Support"]
+				}
+			]
+		}
+	]
+}

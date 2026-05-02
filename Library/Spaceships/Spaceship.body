@@ -1,0 +1,67 @@
+{
+	"version": 5,
+	"name": "Spaceship",
+	"roll": "3d",
+	"locations": [
+		{
+			"id": "front",
+			"choice_name": "Front Hull",
+			"table_name": "Front Hull",
+			"slots": 6,
+			"hit_penalty": 0,
+			"dr_bonus": 0,
+			"description": "Front Hull Section",
+			"calc": {
+				"roll_range": "3-8",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "center",
+			"choice_name": "Central Hull",
+			"table_name": "Central Hull",
+			"slots": 6,
+			"hit_penalty": -2,
+			"dr_bonus": 0,
+			"description": "Central Hull Section",
+			"calc": {
+				"roll_range": "9-11",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "rear",
+			"choice_name": "Rear Hull",
+			"table_name": "Rear Hull",
+			"slots": 6,
+			"hit_penalty": -2,
+			"dr_bonus": 0,
+			"description": "Rear Hull Section",
+			"calc": {
+				"roll_range": "12-16",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "core",
+			"choice_name": "Core",
+			"table_name": "Core",
+			"slots": 2,
+			"hit_penalty": -5,
+			"dr_bonus": 0,
+			"description": "Deeply buried core systems",
+			"calc": {
+				"roll_range": "17-18",
+				"dr": {
+					"all": 0
+				}
+			}
+		}
+	]
+}
