@@ -10369,7 +10369,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "b2f8e1d8-a046-4b7b-8fb9-0bb99b5f1672"
                         }
                     ],
                     "children": [],
@@ -10404,7 +10405,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "53414c6a-fc7d-453a-bae4-aaa9aeffc39d"
                         }
                     ],
                     "children": [],
@@ -10439,7 +10441,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "3",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "c2f87ad8-9808-4ee6-b929-6c21ad351e4e"
                         }
                     ],
                     "children": [],
@@ -10467,14 +10470,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*5",
+                                "base": "2dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "39439616-b8f2-4b7f-bdf6-a0bab4f7e1dc"
                         }
                     ],
                     "children": [],
@@ -10509,7 +10513,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "82a76316-b307-4fdb-85ba-20062a246578"
                         }
                     ],
                     "children": [],
@@ -10544,7 +10549,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "3",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "2234391e-73c7-4681-ad9b-2621c3157ea7"
                         }
                     ],
                     "children": [],
@@ -10579,7 +10585,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "10",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "3e62804e-8349-4f64-9fbd-f62d97929a35"
                         }
                     ],
                     "children": [],
@@ -10607,14 +10614,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*5",
+                                "base": "3dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "0bdab686-9aaa-492f-865c-eadae52c5da7"
                         }
                     ],
                     "children": [],
@@ -10642,14 +10650,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*5",
+                                "base": "2dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "ed35b5fb-15bc-49dc-85d6-2332dbffde43"
                         }
                     ],
                     "children": [],
@@ -10684,7 +10693,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "3",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "1fd6ded0-e685-4c6f-80d5-bcb5cb1f75d2"
                         }
                     ],
                     "children": [],
@@ -10719,7 +10729,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "10",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "fc08fc84-8e84-4eb9-8a27-987f8cb675ea"
                         }
                     ],
                     "children": [],
@@ -10754,7 +10765,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "30",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "7c9d692c-c1e5-40d5-a7b8-e3f55c4262df"
                         }
                     ],
                     "children": [],
@@ -10782,14 +10794,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*5",
+                                "base": "4dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "3cfcc5bd-c727-4837-8fdc-473ab9ac23b5"
                         }
                     ],
                     "children": [],
@@ -10817,14 +10830,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*5",
+                                "base": "3dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "074dd272-bfd6-4877-b92e-5ac3731e8a07"
                         }
                     ],
                     "children": [],
@@ -10852,14 +10866,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*5",
+                                "base": "2dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "3",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "39da6fbd-e80e-491b-ae97-79f616400180"
                         }
                     ],
                     "children": [],
@@ -10894,7 +10909,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "10",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "f3259572-e693-4137-8b62-4ab6e5ccd6ee"
                         }
                     ],
                     "children": [],
@@ -10929,7 +10945,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "30",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "9ebe079e-3719-43e8-ab89-69faf7f695b3"
                         }
                     ],
                     "children": [],
@@ -10957,14 +10974,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*5",
+                                "base": "6dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "f36bff79-6ca0-4b87-8f01-77f3824ffd33"
                         }
                     ],
                     "children": [],
@@ -10992,14 +11010,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*5",
+                                "base": "4dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "94e4f3ef-c2ad-4ff9-a118-297c729db87d"
                         }
                     ],
                     "children": [],
@@ -11027,14 +11046,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*5",
+                                "base": "3dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "3",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "5de388f7-69fa-42cf-8d4c-30d71f669bd1"
                         }
                     ],
                     "children": [],
@@ -11062,14 +11082,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*5",
+                                "base": "2dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "10",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "f645467b-3e4f-4a7a-9078-53ca4eb2fb61"
                         }
                     ],
                     "children": [],
@@ -11104,7 +11125,8 @@
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "30",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "d3463e78-9ce2-4502-82b3-81677fed3fbe"
                         }
                     ],
                     "children": [],
@@ -11132,14 +11154,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*10",
+                                "base": "4dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "7c7f94e1-2ee7-4921-b92d-0a92b741bb3f"
                         }
                     ],
                     "children": [],
@@ -11167,14 +11190,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*5",
+                                "base": "6dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "27546129-3579-45e8-99c6-aab3a9188742"
                         }
                     ],
                     "children": [],
@@ -11202,14 +11226,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*5",
+                                "base": "4dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "3",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "3fcbc444-4d9a-4aa9-9ad4-db3b497b15f1"
                         }
                     ],
                     "children": [],
@@ -11237,14 +11262,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*5",
+                                "base": "3dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "10",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "4468f099-e777-4b47-8de0-fe2cf80fa800"
                         }
                     ],
                     "children": [],
@@ -11272,14 +11298,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*5",
+                                "base": "2dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "30",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "6ac1fb9a-68fa-4a31-aed2-830ea0070266"
                         }
                     ],
                     "children": [],
@@ -11307,14 +11334,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*10",
+                                "base": "6dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "2cf1c6b4-223e-4930-9f99-1dc655c03d11"
                         }
                     ],
                     "children": [],
@@ -11342,14 +11370,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*10",
+                                "base": "4dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "c9730ae8-c121-4baf-94bd-7317e39349ce"
                         }
                     ],
                     "children": [],
@@ -11377,14 +11406,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*5",
+                                "base": "6dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "3",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "e6813710-8a67-4e37-8b56-840319acd046"
                         }
                     ],
                     "children": [],
@@ -11412,14 +11442,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*5",
+                                "base": "4dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "10",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "72ef1a23-3e12-448d-8b43-d1a472379e90"
                         }
                     ],
                     "children": [],
@@ -11447,14 +11478,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*5",
+                                "base": "3dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "30",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "0cab0736-92e3-4351-9420-99fefb1c7132"
                         }
                     ],
                     "children": [],
@@ -11482,14 +11514,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*50",
+                                "base": "2dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "76918c70-dfb8-4140-80bb-e5fa03f146ca"
                         }
                     ],
                     "children": [],
@@ -11517,14 +11550,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*10",
+                                "base": "6dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "764603a3-d667-434c-bf93-2818934e3f1c"
                         }
                     ],
                     "children": [],
@@ -11552,14 +11586,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*10",
+                                "base": "4dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "3",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "37d8fb4f-84cb-493c-a6a7-a08dbb7b9509"
                         }
                     ],
                     "children": [],
@@ -11587,14 +11622,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*5",
+                                "base": "6dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "10",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "39e03d03-3b68-44a9-9726-c4e46f6d4826"
                         }
                     ],
                     "children": [],
@@ -11622,14 +11658,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*5",
+                                "base": "4dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "30",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "1ba8a2e7-701d-472d-9723-b76a116097d3"
                         }
                     ],
                     "children": [],
@@ -11657,14 +11694,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*50",
+                                "base": "3dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "3be8b74f-cc85-4a55-abb3-9eadf4a361ea"
                         }
                     ],
                     "children": [],
@@ -11692,14 +11730,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*50",
+                                "base": "2dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "29abbfde-432b-4118-a821-22a91fe369d1"
                         }
                     ],
                     "children": [],
@@ -11727,14 +11766,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*10",
+                                "base": "6dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "3",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "4f814585-edfb-4422-b009-e596a7d7c81d"
                         }
                     ],
                     "children": [],
@@ -11762,14 +11802,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*10",
+                                "base": "4dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "10",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "f43d7d0d-446e-4381-af2a-de3250f15f7d"
                         }
                     ],
                     "children": [],
@@ -11797,14 +11838,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*5",
+                                "base": "6dx5",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "30",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "aafed161-4aaa-4f0d-bbc0-f02d2359900c"
                         }
                     ],
                     "children": [],
@@ -11832,14 +11874,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*50",
+                                "base": "4dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "ba625197-4625-4261-83f9-318a90369583"
                         }
                     ],
                     "children": [],
@@ -11867,14 +11910,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*50",
+                                "base": "3dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "7554408c-2915-45a2-8e5a-7b21a5559c0d"
                         }
                     ],
                     "children": [],
@@ -11902,14 +11946,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*50",
+                                "base": "2dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "3",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "1fb971d2-9352-4506-9eca-16cc911a0b7d"
                         }
                     ],
                     "children": [],
@@ -11937,14 +11982,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*10",
+                                "base": "6dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "10",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "64d4a3db-61ee-4cf8-a32e-a261a0426a63"
                         }
                     ],
                     "children": [],
@@ -11972,14 +12018,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*10",
+                                "base": "4dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "30",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "17359756-75e6-434f-a656-d1d412f9c432"
                         }
                     ],
                     "children": [],
@@ -12007,14 +12054,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*50",
+                                "base": "6dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "0f8ce745-9d0b-4cd6-b98a-1bf27c15a308"
                         }
                     ],
                     "children": [],
@@ -12042,14 +12090,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "4d*50",
+                                "base": "4dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "1",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "3fef8b15-d4fb-4f6e-bcd6-43770b2e4f07"
                         }
                     ],
                     "children": [],
@@ -12077,14 +12126,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "3d*50",
+                                "base": "3dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "3",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "f4dc6ec5-3573-4d3e-b880-4a5fb8e19e0e"
                         }
                     ],
                     "children": [],
@@ -12112,14 +12162,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "2d*50",
+                                "base": "2dx50",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "10",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "006aebc8-d695-411c-841b-594a0ccd1b55"
                         }
                     ],
                     "children": [],
@@ -12147,14 +12198,15 @@
                             "type": "ranged_weapon",
                             "damage": {
                                 "type": "pi",
-                                "base": "6d*10",
+                                "base": "6dx10",
                                 "armor_divisor": 1
                             },
                             "usage": "Generic Gun/Beam",
                             "accuracy": "0",
                             "range": "Space",
                             "rate_of_fire": "30",
-                            "recoil": "1"
+                            "recoil": "1",
+                            "id": "2f79dc6d-dcd0-44d6-90c6-d5247b2cced3"
                         }
                     ],
                     "children": [],
