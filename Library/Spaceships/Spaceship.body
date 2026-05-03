@@ -27,7 +27,7 @@
 			"dr_bonus": 0,
 			"description": "Central Hull Section",
 			"calc": {
-				"roll_range": "9-11",
+				"roll_range": "9-12",
 				"dr": {
 					"all": 0
 				}
@@ -42,7 +42,7 @@
 			"dr_bonus": 0,
 			"description": "Rear Hull Section",
 			"calc": {
-				"roll_range": "12-16",
+				"roll_range": "13-18",
 				"dr": {
 					"all": 0
 				}
@@ -57,7 +57,7 @@
 			"dr_bonus": 0,
 			"description": "Deeply buried core systems",
 			"calc": {
-				"roll_range": "17-18",
+				"roll_range": "-",
 				"dr": {
 					"all": 0
 				}
