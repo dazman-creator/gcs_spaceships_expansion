@@ -1,19 +1,11 @@
 {
-	"type": "modifier_list",
 	"version": 5,
 	"rows": [
 		{
-			"type": "modifier_container",
-			"name": "Spaceship Trait Modifiers",
-			"children": [
-				{
-					"type": "modifier",
-					"id": "spaceship_example_mod",
-					"name": "Example Spaceship Modifier",
-					"reference": "SS",
-					"cost": "+50%"
-				}
-			]
+			"id": "spaceship_example_mod",
+			"name": "Example Spaceship Modifier",
+			"reference": "SS",
+			"cost_adj": "50%"
 		}
 	]
 }
