@@ -3,6 +3,10 @@ import random
 import argparse
 import os
 import uuid
+from pathlib import Path
+
+DEFAULT_LIBRARY_DIR = Path(__file__).resolve().parent / "Library" / "Spaceships"
+DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parent / "generated-ships"
 
 def load_json(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -52,17 +56,18 @@ def main():
     parser = argparse.ArgumentParser(description="GCS Random Spaceship Generator")
     parser.add_argument("--sm", type=int, choices=range(5, 16), default=8, help="Size Modifier (5-15)")
     parser.add_argument("--shipclass", type=str, choices=["freighter", "warship", "explorer"], default="freighter", help="Ship Class")
+    parser.add_argument("--library-dir", type=str, default="", help="Directory containing the Spaceships library files")
     parser.add_argument("--outdir", type=str, default="", help="Output directory for the generated .gcs file")
     args = parser.parse_args()
     
-    base_dir = r"C:\Users\User\GCS\User Library\Spaceships"
-    out_dir = args.outdir if args.outdir else base_dir
+    base_dir = Path(args.library_dir).expanduser().resolve() if args.library_dir else DEFAULT_LIBRARY_DIR
+    out_dir = Path(args.outdir).expanduser().resolve() if args.outdir else DEFAULT_OUTPUT_DIR
     
     # 1. Load Boilerplate and DB
-    template = load_json(os.path.join(base_dir, "Basic_Spaceship_Sheet.gcs"))
-    modules_db = load_json(os.path.join(base_dir, "Spaceships - Modules.eqp"))
-    chassis_db = load_json(os.path.join(base_dir, "Spaceships - Chassis.adq"))
-    body_db = load_json(os.path.join(base_dir, "Spaceship.body"))
+    template = load_json(base_dir / "Basic_Spaceship_Sheet.gcs")
+    modules_db = load_json(base_dir / "Spaceships - Modules.eqp")
+    chassis_db = load_json(base_dir / "Spaceships - Chassis.adq")
+    body_db = load_json(base_dir / "Spaceship.body")
     
     # 2. Setup Base Info
     prefixes = ["USS", "VSS", "ISV", "HMS", "FSS"]
@@ -187,7 +192,7 @@ def main():
     # 5. Output
     out_name = f"{ship_name.replace(' ', '_')}.gcs"
     os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, out_name)
+    out_path = out_dir / out_name
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(template, f, indent=4)
         

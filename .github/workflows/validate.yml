@@ -1,0 +1,26 @@
+name: Validate GCS library
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate library files
+        run: python tests/validate_library.py
+
+      - name: Generate random ships smoke test
+        run: python test_generator.py --count 50
